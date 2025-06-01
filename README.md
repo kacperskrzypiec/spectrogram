@@ -22,7 +22,7 @@ The [data directory](Spectrogram/data/audio) contains audio files for experiment
 
 ## Performance
 
-| Threads | C++ [ms] | asm [ms] | Boost   |
+| Threads | C++ [ms] | asm [ms] | Speedup |
 |---------|----------|----------|---------|
 | 1       | 108.592  | 37.6872  | 2.8814  |
 | 2       | 55.1068  | 19.4632  | 2.83133 |
