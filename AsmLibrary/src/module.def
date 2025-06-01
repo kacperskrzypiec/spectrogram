@@ -1,0 +1,8 @@
+LIBRARY AsmLibrary
+EXPORTS
+	get_library_id
+	hann_window
+	compute_magnitudes
+	compute_part_of_fft
+	extract_mono_samples
+	extract_stereo_samples
