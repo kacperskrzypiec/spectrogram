@@ -9,14 +9,7 @@ The [data directory](Spectrogram/data/audio) contains audio files for experiment
 ![Showcase](showcase.png "Showcase")
 
 ## Build 🔨
-```
-> git clone https://github.com/kacperskrzypiec/spectrogram.git
-> cd spectrogram
-> mkdir build
-> cd build
-> cmake .. -G "Visual Studio 17 2022" -DPRODUCTION_BUILD=ON -DCMAKE_BUILD_TYPE=Release
-> cmake --build .
-```
+Open the directory in Visual Studio and build.
 
 ## Features ✨
 - Switch between C++ and assembly implementations

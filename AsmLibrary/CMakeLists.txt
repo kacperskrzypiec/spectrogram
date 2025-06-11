@@ -34,3 +34,7 @@ add_library(${TARGET_NAME} SHARED
     src/main.asm
     src/main.cpp
 )
+
+set_target_properties(${TARGET_NAME} PROPERTIES
+    LINK_FLAGS "/DEF:${CMAKE_CURRENT_SOURCE_DIR}/src/module.def"
+)
