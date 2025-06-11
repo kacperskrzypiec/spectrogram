@@ -1,4 +1,4 @@
-# Spectrogram
+# Spectrogram 📟
 
 An application for visualizing audio spectrograms, created as part of a college assignment. It uses the classic [Cooley-Tukey FFT](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm) algorithm and includes two libraries with C++ and x86 assembly implementations of its core component.
 
@@ -8,7 +8,17 @@ The [data directory](Spectrogram/data/audio) contains audio files for experiment
 
 ![Showcase](showcase.png "Showcase")
 
-## Features
+## Build 🔨
+```
+> git clone https://github.com/kacperskrzypiec/spectrogram.git
+> cd spectrogram
+> mkdir build
+> cd build
+> cmake .. -G "Visual Studio 17 2022" -DPRODUCTION_BUILD=ON -DCMAKE_BUILD_TYPE=Release
+> cmake --build .
+```
+
+## Features ✨
 - Switch between C++ and assembly implementations
 - Interactive display
 - Adjustable parameters:
@@ -20,7 +30,7 @@ The [data directory](Spectrogram/data/audio) contains audio files for experiment
     - Grid visibility
 - Measure performance at the press of a button (see table below)
 
-## Performance
+## Performance 📈
 
 | Threads | C++ [ms] | asm [ms] | Boost   |
 |---------|----------|----------|---------|
@@ -34,5 +44,5 @@ The [data directory](Spectrogram/data/audio) contains audio files for experiment
 
 Audio file: [cave14.mp3](Spectrogram/data/audio/cave14.mp3). CPU: AMD Ryzen 9 5900X. 
 
-## License
+## License 🧾
 [MIT License](LICENSE)
